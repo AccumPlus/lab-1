@@ -10,4 +10,6 @@ app = Flask(__name__)
 def index():
 	if request.method == 'GET':
 		num = request.args.get('num', '')
+		if num == '':
+			num = 1
 		return Controller.getHtml(int(num), totalNum)

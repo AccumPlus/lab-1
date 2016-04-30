@@ -1,7 +1,7 @@
 class Controller:
 
 	@staticmethod
-	def getListNum (curInd, maxNum):
+	def __getListNum (curInd, maxNum):
 
 		line = []
 

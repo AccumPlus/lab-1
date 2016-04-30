@@ -1,4 +1,3 @@
 from controller import Controller
 
-print (Controller.getHtml(5, 20))
-
+print(Controller.getHtml(5, 20))
